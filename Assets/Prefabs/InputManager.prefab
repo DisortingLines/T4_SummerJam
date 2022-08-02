@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2624619414675976664}
   - component: {fileID: 2624619414675976743}
+  - component: {fileID: 8145522907890251112}
   m_Layer: 0
   m_Name: InputManager
   m_TagString: Untagged
@@ -44,3 +45,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac003e59dbe72cf44856ccd76d88b0a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8145522907890251112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2624619414675976742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62b72ca8ea951454a92f7ce7cd58332f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuState: 1
+  inputManager: {fileID: 0}
+  State: 0
+  currentLevel: 
+  MenuScene: MainMenu
+  currentPanel: {fileID: 0}
+  panelHistory: []
+  ResumePanel: {fileID: 0}
+  PausePanel: {fileID: 0}
+  InResume: 0
+  inPause: 0

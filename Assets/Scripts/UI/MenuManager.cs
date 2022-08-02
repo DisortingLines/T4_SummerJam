@@ -17,7 +17,7 @@ public enum GameStates
 public class MenuManager : MonoBehaviour
 {
     public MenuStates menuState;
-    //[SerializeField] private InputManager inputManager;
+    [SerializeField] private InputManager inputManager;
 
     public GameStates State;
     [SerializeField] private string currentLevel;
@@ -32,7 +32,7 @@ public class MenuManager : MonoBehaviour
     void Start()
     {
         SetUpPanel();
-        //inputManager = InputManager.Instance;
+        inputManager = InputManager.Instance;
     }
     private void SetUpPanel()
     {

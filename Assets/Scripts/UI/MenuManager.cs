@@ -14,7 +14,7 @@ public class MenuManager : MonoBehaviour
             return _instance;
         }
     }
-    [SerializeField] private InputManager inputManager;
+    //[SerializeField] private InputManager inputManager;
 
     public Panel currentPanel = null;
     [SerializeField]private List<Panel> panelHistory = new List<Panel>();
@@ -26,7 +26,7 @@ public class MenuManager : MonoBehaviour
     {
         SetUpPanel();
         //inputManager = InputManager.Instance;
-        UnlockCursor();
+        //UnlockCursor();
     }
     private void SetUpPanel()
     {

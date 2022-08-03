@@ -38,12 +38,6 @@ public class MenuManager : MonoBehaviour
         }
         currentPanel.Show();
     }
-    // Update is called once per frame
-    void Update()
-    {
-       
-
-    }
 
     // functions
 
